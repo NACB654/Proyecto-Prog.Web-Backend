@@ -1,5 +1,6 @@
 import modelo from "../models/reserva.js"
 import modeloLibro from "../models/libro.js"
+import modeloUsuario from "../models/usuario.js"
 
 const findAll = async () => {
     try {
@@ -36,6 +37,10 @@ const findLibrosReservados = async (id) => {
 const findLibro = async (id) => {
     try {
         return await modelo.findOne({
+            include: {
+                model: modeloLibro,
+                model: modelousuario,
+            },
             where: { idLibro: id }
         })
     }
