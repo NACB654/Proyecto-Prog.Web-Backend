@@ -39,7 +39,7 @@ const findLibro = async (id) => {
         return await modelo.findOne({
             include: {
                 model: modeloLibro,
-                model: modelousuario,
+                model: modeloUsuario,
             },
             where: { idLibro: id }
         })
