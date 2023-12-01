@@ -1,8 +1,8 @@
 import Sequelize from 'sequelize'
 
-const hostname = '127.0.0.1'
+const hostname = 'nacb-progweb-db.postgres.database.azure.com'
 const username = 'postgres'
-const password = '123'
+const password = 'Password123'
 const database = 'biblioteca'
 const dbPort = 5432
 const dialect = 'postgres'
