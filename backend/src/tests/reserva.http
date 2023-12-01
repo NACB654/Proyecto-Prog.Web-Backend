@@ -1,0 +1,25 @@
+POST http://localhost:3001/reserva
+Content-Type: application/json
+
+{
+    "fechaReserva": "2023-11-18",
+    "fechaDevolucion": "2023-11-20",
+    "idUsuario": 1,
+    "idLibro": 2
+}
+
+########
+
+POST http://localhost:3001/reserva
+Content-Type: application/json
+
+{
+    "fechaReserva": "2023-11-23",
+    "fechaDevolucion": "2023-12-12",
+    "idUsuario": 3,
+    "idLibro": 3
+}
+
+########
+
+GET  http://localhost:3001/reserva/libros/1

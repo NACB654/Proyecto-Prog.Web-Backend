@@ -1,0 +1,49 @@
+POST http://localhost:3001/usuario
+Content-Type: application/json
+
+{
+    "nombre": "Juan",
+    "apellido": "Lopez",
+    "tipoDocumento": "DNI",
+    "nroDocumento": 12345678,
+    "correo": "user01@sample.com",
+    "password": "user01",
+    "tipoUsuario": "usuario",
+    "foto": "user.png"
+}
+
+########
+
+POST http://localhost:3001/usuario
+Content-Type: application/json
+
+{
+    "nombre": "Filiberto",
+    "apellido": "Perez",
+    "tipoDocumento": "DNI",
+    "nroDocumento": 87654321,
+    "correo": "filib69@sample.com",
+    "password": "admin23",
+    "tipoUsuario": "admin",
+    "foto": "user.png"
+}
+
+########
+
+POST http://localhost:3001/usuario
+Content-Type: application/json
+
+{
+    "nombre": "Luis",
+    "apellido": "Gonzales",
+    "tipoDocumento": "DNI",
+    "nroDocumento": 18273645,
+    "correo": "user02@sample.com",
+    "password": "user02",
+    "tipoUsuario": "usuario",
+    "foto": "user.png"
+}
+
+########
+
+GET http://localhost:3001/usuario
