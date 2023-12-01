@@ -1,4 +1,4 @@
-POST http://localhost:3001/usuario
+POST https://nacb-progweb-backend.azurewebsites.net/usuario
 Content-Type: application/json
 
 {
@@ -14,7 +14,7 @@ Content-Type: application/json
 
 ########
 
-POST http://localhost:3001/usuario
+POST https://nacb-progweb-backend.azurewebsites.net/usuario
 Content-Type: application/json
 
 {
@@ -30,7 +30,7 @@ Content-Type: application/json
 
 ########
 
-POST http://localhost:3001/usuario
+POST https://nacb-progweb-backend.azurewebsites.net/usuario
 Content-Type: application/json
 
 {
@@ -46,4 +46,4 @@ Content-Type: application/json
 
 ########
 
-GET http://localhost:3001/usuario
+GET https://nacb-progweb-backend.azurewebsites.net/usuario

@@ -1,26 +1,7 @@
-GET http://localhost:3001/libro
+GET https://nacb-progweb-backend.azurewebsites.net/libro
 
 ########
 
-GET https://nacb-progweb-api.azurewebsites.net/libro/resultado?keyword=soft&recurso=['']&checks=titulo
+GET https://nacb-progweb-backend.azurewebsites.net/libro/item/1
 
-########
-
-GET https://nacb-progweb-api.azurewebsites.net/libro/item/1
-
-########
-PUT https://nacb-progweb-api.azurewebsites.net/libro
-Content-Type: application/json
-
-{
-    "id": 1,
-    "titulo": "Software la Superbabosa",
-    "autor": "Joyce dunbar",
-    "isbn13": "9788423687572",
-    "editorial": "Edebé",
-    "categoria": "Infantil y juvenil",
-    "cantidadReservas": 7,
-    "portada": "https://images.cdn2.buscalibre.com/fit-in/180x180/1f/a6/1fa666e0f93fb0bc63c4c214188f3a46.jpg"
-}
-
-########
+#######

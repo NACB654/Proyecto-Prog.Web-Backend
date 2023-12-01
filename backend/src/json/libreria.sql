@@ -1,4 +1,4 @@
-INSERT INTO libros(autor,editorial,"isbn13",portada,titulo,categoria,"cantidadReservas") VALUES
+INSERT INTO "Libros"(autor,editorial,"isbn13",portada,titulo,categoria,"cantidadReservas") VALUES
  ('Joyce dunbar','Edebé',9788423687572,'https://images.cdn2.buscalibre.com/fit-in/180x180/1f/a6/1fa666e0f93fb0bc63c4c214188f3a46.jpg','Software la Superbabosa','Infantil y juvenil',4)
 ,('Flores masias, eward; huarote zegarra, raul','Fondo editorial universidad césar vallejo',9786124435058,'https://images.cdn1.buscalibre.com/fit-in/180x180/20/82/2082a4e5a59dcf7e8531feb8e488c30b.jpg','Gestion de proyecto de Software','Ingenieria',6)
 ,('Ian sommerville','Pearson',9786073206037,'https://images.cdn3.buscalibre.com/fit-in/180x180/f8/78/f878362b2a6c71f5e7125eafff09a82c.jpg','Ingeniería de Software','Computadoras y tecnología',12)
